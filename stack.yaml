@@ -1,0 +1,11 @@
+resolver: lts-17.14
+
+extra-deps:
+  - profunctors-5.5.2
+  - nonempty-containers-0.3.4.1
+
+packages:
+  - free-lattice-product
+  - monoid-object
+  - profunctor
+  - tcmp
