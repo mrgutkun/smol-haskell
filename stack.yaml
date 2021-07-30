@@ -9,3 +9,4 @@ packages:
   - monoid-object
   - profunctor
   - tcmp
+  - code-cata

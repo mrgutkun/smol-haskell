@@ -1,0 +1,30 @@
+name: code-cata
+version: 0.0.0
+
+ghc-options: -Wall -Werror
+
+default-extensions:
+- ApplicativeDo
+- BlockArguments
+- FlexibleContexts
+- FlexibleInstances
+- GADTs
+- GeneralizedNewtypeDeriving
+- ImportQualifiedPost
+- LambdaCase
+- NamedFieldPuns
+- OverloadedStrings
+- PatternSynonyms
+- QuasiQuotes
+- RecordWildCards
+- ScopedTypeVariables
+- TypeApplications
+- TypeFamilies
+- ViewPatterns
+
+dependencies:
+- base
+- containers
+
+library:
+  source-dirs: src
